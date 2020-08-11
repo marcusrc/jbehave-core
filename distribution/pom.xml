@@ -9,7 +9,7 @@
   <packaging>pom</packaging>
   <name>JBehave Distribution</name>
   <properties>
-    <jbehave.site.version>3.3</jbehave.site.version>
+    <jbehave.site.version>3.3.1</jbehave.site.version>
   </properties>
   <dependencies>
     <dependency>
@@ -486,15 +486,15 @@
             </goals>
             <configuration>
               <tasks>
-                <property name="code-coverage.directory" value="${project.build.directory}/site/code-coverage" />
-                <mkdir dir="${code-coverage.directory}" />
+                <property name="code-coverage.directory" value="${project.build.directory}/site/code-coverage"/>
+                <mkdir dir="${code-coverage.directory}"/>
                 <copy todir="${code-coverage.directory}" overwrite="true" failonerror="false">
                   <fileset dir="${basedir}/../">
-                    <include name="jbehave-*/target/site/cobertura/**" />
+                    <include name="jbehave-*/target/site/cobertura/**"/>
                   </fileset>
                   <filtermapper>
-                    <replacestring from="jbehave-" to="" />
-                    <replacestring from="target/site/cobertura" to="/" />
+                    <replacestring from="jbehave-" to=""/>
+                    <replacestring from="target/site/cobertura" to="/"/>
                   </filtermapper>
                 </copy>
               </tasks>
@@ -508,9 +508,9 @@
             </goals>
             <configuration>
               <tasks>
-                <property name="archetypes.directory" value="${project.build.directory}/archetypes" />
-                <property name="local.archetype.catalog" value="${user.home}/.m2/archetype-catalog.xml" />
-                <mkdir dir="${archetypes.directory}" />
+                <property name="archetypes.directory" value="${project.build.directory}/archetypes"/>
+                <property name="local.archetype.catalog" value="${user.home}/.m2/archetype-catalog.xml"/>
+                <mkdir dir="${archetypes.directory}"/>
                 <copy todir="${archetypes.directory}" file="${user.home}/.m2/archetype-catalog.xml" overwrite="true" failonerror="false" verbose="true">
                 </copy>
               </tasks>
