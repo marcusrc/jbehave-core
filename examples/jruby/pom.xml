@@ -11,7 +11,7 @@
   <name>JBehave JRuby Example</name>
 
   <properties>
-    <jruby.version>1.6.8</jruby.version>
+    <jruby.version>1.7.0</jruby.version>
     <jruby.generated.sources>${project.build.directory}/generated-sources/jruby</jruby.generated.sources>
   </properties>
 
@@ -96,7 +96,7 @@
               <includes>
                 <include>**/*Stories.java</include>
               </includes>
-              <excludes />
+              <excludes/>
               <generateViewAfterStories>true</generateViewAfterStories>
               <ignoreFailureInStories>true</ignoreFailureInStories>
               <ignoreFailureInView>true</ignoreFailureInView>
