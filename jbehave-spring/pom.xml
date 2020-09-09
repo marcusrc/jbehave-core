@@ -40,7 +40,7 @@
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
-            <version>3.2.2</version>
+            <version>3.2.11</version>
             <optional>true</optional>
         </dependency>
         <dependency>
