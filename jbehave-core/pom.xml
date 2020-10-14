@@ -14,7 +14,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>4.13.1</version>
     </dependency>
     <dependency>
       <groupId>org.hamcrest</groupId>
@@ -109,7 +109,7 @@
             <phase>package</phase>
             <configuration>
               <tasks>
-                <zip destfile="${jbehave-core-resources.zip}" basedir="${basedir}/src/main/resources" />
+                <zip destfile="${jbehave-core-resources.zip}" basedir="${basedir}/src/main/resources"/>
               </tasks>
             </configuration>
             <goals>
