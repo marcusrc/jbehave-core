@@ -61,7 +61,7 @@
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
       <artifactId>plexus-utils</artifactId>
-      <version>3.0.22</version>
+      <version>3.0.24</version>
     </dependency>
     <dependency>
       <groupId>org.freemarker</groupId>
@@ -109,7 +109,7 @@
             <phase>package</phase>
             <configuration>
               <tasks>
-                <zip destfile="${jbehave-core-resources.zip}" basedir="${basedir}/src/main/resources" />
+                <zip destfile="${jbehave-core-resources.zip}" basedir="${basedir}/src/main/resources"/>
               </tasks>
             </configuration>
             <goals>
