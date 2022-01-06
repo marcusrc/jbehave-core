@@ -10,7 +10,7 @@
     <description>Extension of JBehave Core that supports Spring dependency injection</description>
 
     <properties>
-        <spring.version>3.2.16.RELEASE</spring.version>
+        <spring.version>5.2.19.RELEASE</spring.version>
         <aspectj.version>1.8.9</aspectj.version>
     </properties>
 
