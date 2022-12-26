@@ -11,7 +11,7 @@
   <name>JBehave Examples</name>
 
   <properties>
-    <jbehave.version>${project.version}</jbehave.version>
+    <jbehave.version>5.0</jbehave.version>
     <jbehave.site.version>3.3</jbehave.site.version>
   </properties>
 
