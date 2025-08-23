@@ -10,7 +10,7 @@
   <artifactId>jbehave-spring-security-example</artifactId>
   <name>JBehave Spring Security Example</name>
   <properties>
-    <spring.version>3.2.16.RELEASE</spring.version>
+    <spring.version>6.2.10</spring.version>
   </properties>
   <dependencies>
     <dependency>
